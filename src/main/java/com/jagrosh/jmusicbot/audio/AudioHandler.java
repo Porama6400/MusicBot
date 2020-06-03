@@ -98,7 +98,15 @@ public class AudioHandler extends AudioEventAdapter implements AudioSendHandler
         audioPlayer.stopTrack();
         //current = null;
     }
-    
+
+    public int countUserTrack(long id){
+        int count = 0;
+        for (QueuedTrack track : queue.getList()) {
+            if(track.getIdentifier()==id) count++;
+        }
+        return count;
+    }
+
     public boolean isMusicPlaying(JDA jda)
     {
         return guild(jda).getSelfMember().getVoiceState().inVoiceChannel() && audioPlayer.getPlayingTrack()!=null;

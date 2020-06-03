@@ -55,8 +55,7 @@ public class JMusicBot
         Logger log = LoggerFactory.getLogger("Startup");
         
         // create prompt to handle startup
-        Prompt prompt = new Prompt("JMusicBot", "Switching to nogui mode. You can manually start in nogui mode by including the -Dnogui=true flag.", 
-                "true".equalsIgnoreCase(System.getProperty("nogui", "false")));
+        Prompt prompt = new Prompt("JMusicBot", "Running in headless mode",true);
         
         // check deprecated nogui mode (new way of setting it is -Dnogui=true)
         for(String arg: args)
@@ -121,12 +120,14 @@ public class JMusicBot
                         new SkiptoCmd(bot),
                         new StopCmd(bot),
                         new VolumeCmd(bot),
-                        
+                        new DjModeCmd(bot),
+
                         new PrefixCmd(bot),
                         new SetdjCmd(bot),
                         new SettcCmd(bot),
                         new SetvcCmd(bot),
-                        
+                        new SetMaxQueueCmd(bot),
+
                         new AutoplaylistCmd(bot),
                         new DebugCmd(bot),
                         new PlaylistCmd(bot),

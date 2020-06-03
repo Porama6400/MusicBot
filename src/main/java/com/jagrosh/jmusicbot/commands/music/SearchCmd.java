@@ -15,6 +15,8 @@
  */
 package com.jagrosh.jmusicbot.commands.music;
 
+import com.jagrosh.jmusicbot.commands.DJCommand;
+import com.jagrosh.jmusicbot.settings.Settings;
 import com.sedmelluq.discord.lavaplayer.player.AudioLoadResultHandler;
 import com.sedmelluq.discord.lavaplayer.tools.FriendlyException;
 import com.sedmelluq.discord.lavaplayer.tools.FriendlyException.Severity;
@@ -62,6 +64,13 @@ public class SearchCmd extends MusicCommand
     @Override
     public void doCommand(CommandEvent event) 
     {
+        Settings settings = event.getClient().getSettingsFor(event.getGuild());
+        boolean isDJ = DJCommand.checkDJPermission(event);
+        if (settings.getDjMode() && !isDJ) {
+            event.replyError("DJ mode is currently on! Please ask a DJ to add the song for you");
+            return;
+        }
+
         if(event.getArgs().isEmpty())
         {
             event.replyError("Please include a query.");
