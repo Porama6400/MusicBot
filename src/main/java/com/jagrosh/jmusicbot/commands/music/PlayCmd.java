@@ -15,11 +15,6 @@
  */
 package com.jagrosh.jmusicbot.commands.music;
 
-import com.sedmelluq.discord.lavaplayer.player.AudioLoadResultHandler;
-import com.sedmelluq.discord.lavaplayer.tools.FriendlyException;
-import com.sedmelluq.discord.lavaplayer.tools.FriendlyException.Severity;
-import com.sedmelluq.discord.lavaplayer.track.AudioPlaylist;
-import com.sedmelluq.discord.lavaplayer.track.AudioTrack;
 import com.jagrosh.jdautilities.command.Command;
 import com.jagrosh.jdautilities.command.CommandEvent;
 import com.jagrosh.jdautilities.menu.ButtonMenu;
@@ -29,11 +24,19 @@ import com.jagrosh.jmusicbot.audio.QueuedTrack;
 import com.jagrosh.jmusicbot.commands.DJCommand;
 import com.jagrosh.jmusicbot.commands.MusicCommand;
 import com.jagrosh.jmusicbot.playlist.PlaylistLoader.Playlist;
+import com.jagrosh.jmusicbot.settings.Settings;
 import com.jagrosh.jmusicbot.utils.FormatUtil;
-import java.util.concurrent.TimeUnit;
+import com.sedmelluq.discord.lavaplayer.player.AudioLoadResultHandler;
+import com.sedmelluq.discord.lavaplayer.tools.FriendlyException;
+import com.sedmelluq.discord.lavaplayer.tools.FriendlyException.Severity;
+import com.sedmelluq.discord.lavaplayer.track.AudioPlaylist;
+import com.sedmelluq.discord.lavaplayer.track.AudioTrack;
 import net.dv8tion.jda.core.Permission;
 import net.dv8tion.jda.core.entities.Message;
 import net.dv8tion.jda.core.exceptions.PermissionException;
+
+import java.util.concurrent.TimeUnit;
+import java.util.regex.Pattern;
 
 /**
  *
@@ -45,7 +48,9 @@ public class PlayCmd extends MusicCommand
     private final static String CANCEL = "\uD83D\uDEAB"; // 🚫
     
     private final String loadingEmoji;
-    
+
+    public static final Pattern youtubeTimePattern = Pattern.compile("\\?.*t=([0-9]*)");
+
     public PlayCmd(Bot bot)
     {
         super(bot);
@@ -62,9 +67,21 @@ public class PlayCmd extends MusicCommand
     @Override
     public void doCommand(CommandEvent event) 
     {
+        Settings settings = event.getClient().getSettingsFor(event.getGuild());
+        boolean isDJ = DJCommand.checkDJPermission(event);
+        if (settings.getDjMode() && !isDJ) {
+            event.replyError("DJ mode is currently on! Please ask a DJ to add the song for you");
+            return;
+        }
+
+        AudioHandler handler = (AudioHandler)event.getGuild().getAudioManager().getSendingHandler();
+        if(handler.countUserTrack(event.getMember().getUser().getIdLong()) >= settings.getMaxUserQueue() && !isDJ){
+            event.replyError("You can only queue up to " + settings.getMaxUserQueue() + " song!");
+            return;
+        }
+
         if(event.getArgs().isEmpty() && event.getMessage().getAttachments().isEmpty())
         {
-            AudioHandler handler = (AudioHandler)event.getGuild().getAudioManager().getSendingHandler();
             if(handler.getPlayer().getPlayingTrack()!=null && handler.getPlayer().isPaused())
             {
                 if(DJCommand.checkDJPermission(event))

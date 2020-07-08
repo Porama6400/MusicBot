@@ -60,6 +60,8 @@ public class SettingsCmd extends Command
                         + "\nDJ Role: " + (role == null ? "None" : "**" + role.getName() + "**")
                         + "\nCustom Prefix: " + (s.getPrefix() == null ? "None" : "`" + s.getPrefix() + "`")
                         + "\nRepeat Mode: **" + (s.getRepeatMode() ? "On" : "Off") + "**"
+                        + "\nDJ-only Mode: **"+(s.getDjMode() ? "On" : "Off")+"**"
+                        + "\nMax user queue: **"+s.getMaxUserQueue()+"**"
                         + "\nDefault Playlist: " + (s.getDefaultPlaylist() == null ? "None" : "**" + s.getDefaultPlaylist() + "**")
                         )
                 .setFooter(event.getJDA().getGuilds().size() + " servers | "

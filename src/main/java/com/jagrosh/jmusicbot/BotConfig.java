@@ -303,7 +303,7 @@ public class BotConfig
     {
         if(maxSeconds<=0)
             return false;
-        return Math.round(track.getDuration()/1000.0) > maxSeconds;
+        return Math.round((track.getDuration() - track.getPosition())/1000.0) > maxSeconds;
     }
 
     public String[] getAliases(String command)

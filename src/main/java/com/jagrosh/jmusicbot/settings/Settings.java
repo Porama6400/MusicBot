@@ -37,8 +37,9 @@ public class Settings implements GuildSettingsProvider
     private String defaultPlaylist;
     private boolean repeatMode;
     private String prefix;
-    
-    public Settings(SettingsManager manager, String textId, String voiceId, String roleId, int volume, String defaultPlaylist, boolean repeatMode, String prefix)
+    private int maxUserQueue;
+    private boolean djMode = false;
+    public Settings(SettingsManager manager, String textId, String voiceId, String roleId, int volume, String defaultPlaylist, boolean repeatMode, String prefix, int maxUserQueue)
     {
         this.manager = manager;
         try
@@ -69,9 +70,10 @@ public class Settings implements GuildSettingsProvider
         this.defaultPlaylist = defaultPlaylist;
         this.repeatMode = repeatMode;
         this.prefix = prefix;
+        this.maxUserQueue = maxUserQueue;
     }
     
-    public Settings(SettingsManager manager, long textId, long voiceId, long roleId, int volume, String defaultPlaylist, boolean repeatMode, String prefix)
+    public Settings(SettingsManager manager, long textId, long voiceId, long roleId, int volume, String defaultPlaylist, boolean repeatMode, String prefix,int maxUserQueue)
     {
         this.manager = manager;
         this.textId = textId;
@@ -81,6 +83,7 @@ public class Settings implements GuildSettingsProvider
         this.defaultPlaylist = defaultPlaylist;
         this.repeatMode = repeatMode;
         this.prefix = prefix;
+        this.maxUserQueue = maxUserQueue;
     }
     
     // Getters
@@ -166,5 +169,21 @@ public class Settings implements GuildSettingsProvider
     {
         this.prefix = prefix;
         this.manager.writeSettings();
+    }
+
+    public int getMaxUserQueue() {
+        return maxUserQueue;
+    }
+
+    public void setMaxUserQueue(int maxUserQueue) {
+        this.maxUserQueue = maxUserQueue;
+    }
+
+    public void setDjMode(boolean djMode) {
+        this.djMode = djMode;
+    }
+
+    public boolean getDjMode() {
+        return djMode;
     }
 }
