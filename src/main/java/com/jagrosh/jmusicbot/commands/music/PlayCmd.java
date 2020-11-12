@@ -122,7 +122,7 @@ public class PlayCmd extends MusicCommand
         
         private void loadSingle(AudioTrack track, AudioPlaylist playlist)
         {
-            if(bot.getConfig().isTooLong(track))
+            if(bot.getConfig().isTooLong(track) && !DJCommand.checkDJPermission(event))
             {
                 m.editMessage(FormatUtil.filter(event.getClient().getWarning()+" This track (**"+track.getInfo().title+"**) is longer than the allowed maximum: `"
                         +FormatUtil.formatTime(track.getDuration())+"` > `"+FormatUtil.formatTime(bot.getConfig().getMaxSeconds()*1000)+"`")).queue();
@@ -189,6 +189,11 @@ public class PlayCmd extends MusicCommand
             }
             else
             {
+                if(!DJCommand.checkDJPermission(event)){
+                    m.editMessage(FormatUtil.filter("You do not have permission to play a playlist!"));
+                    return;
+                }
+
                 int count = loadPlaylist(playlist, null);
                 if(count==0)
                 {

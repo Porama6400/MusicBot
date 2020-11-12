@@ -110,6 +110,11 @@ public class SearchCmd extends MusicCommand
         @Override
         public void playlistLoaded(AudioPlaylist playlist)
         {
+            if(!DJCommand.checkDJPermission(event)){
+                event.replyWarning("You do not have permission to play a playlist!");
+                return;
+            }
+
             builder.setColor(event.getSelfMember().getColor())
                     .setText(FormatUtil.filter(event.getClient().getSuccess()+" Search results for `"+event.getArgs()+"`:"))
                     .setChoices(new String[0])
