@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:jagrosh" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4b0abf17-efdd-466c-94ee-dc547a5f7444" name="Default Changelist" comment="Update README.md&#10;&#10;(cherry picked from commit fa69fc8e795fc1cf97601106180887854a359f25)&#10;&#10;# Conflicts:&#10;#&#9;README.md">
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/run_jmusicbot.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug-report.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug-report.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature-request.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/Bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/BotConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/BotConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/JMusicBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/JMusicBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/Listener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/audio/AudioHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/audio/AudioHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/audio/NowplayingHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/audio/NowplayingHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/audio/PlayerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/audio/PlayerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/audio/QueuedTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/audio/QueuedTrack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/AdminCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/AdminCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/DJCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/DJCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/MusicCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/MusicCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/admin/SetdjCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/admin/SetdjCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/admin/SettcCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/admin/SettcCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/admin/SetvcCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/admin/SetvcCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/dj/ForceRemoveCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/dj/ForceRemoveCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/dj/ForceskipCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/dj/ForceskipCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/dj/PlaynextCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/dj/PlaynextCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/general/SettingsCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/general/SettingsCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/music/LyricsCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/music/LyricsCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/music/NowplayingCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/music/NowplayingCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/music/PlayCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/music/PlayCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/music/QueueCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/music/QueueCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/music/RemoveCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/music/RemoveCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/music/SearchCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/music/SearchCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/music/SkipCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/music/SkipCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/owner/DebugCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/owner/DebugCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/owner/SetavatarCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/owner/SetavatarCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/owner/SetgameCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/owner/SetgameCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/owner/SetnameCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/owner/SetnameCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/owner/SetstatusCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/commands/owner/SetstatusCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/settings/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/settings/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/settings/SettingsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/settings/SettingsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/utils/FormatUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/utils/FormatUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/utils/OtherUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jagrosh/jmusicbot/utils/OtherUtil.java" afterDir="false" />
+    </list>
+    <list id="2d798eaa-1505-4b64-985d-b5ab32292778" name="Apply patch" comment="Apply patch">
+      <changelist_data name="Porama6400" email="poramatv@gmail.com" />
+    </list>
+    <list id="3a3f1bd9-143a-4fe0-b81b-17adaa903553" name="Fix version checking" comment="Fix version checking">
+      <changelist_data name="Porama6400" email="poramatv@gmail.com" />
+    </list>
+    <list id="5a4104f4-bbe2-496b-919c-42c6c5797936" name="Fix version checking-2" comment="Fix version checking">
+      <changelist_data name="Porama6400" email="poramatv@gmail.com" />
+    </list>
+    <list id="6f996819-7fc0-4d1c-bbf5-a809fef3c919" name="JMBMeh" comment="" />
+    <list id="aa71cf63-a7f1-4d68-be47-95e101505060" name="Update bug-report.md" comment="" />
+    <list id="094a15cb-82fd-4905-9562-f45a0f7284a2" name="Update README.md" comment="Update README.md&#10;&#10;(cherry picked from commit 129d394cf9b08336568067205b28b3337afcd045)">
+      <changelist_data name="Porama6400" email="porama6400@users.noreply.github.com" date="1574952357000" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\JetBrains\apps\IDEA-U\ch-0\202.7660.26\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VU5TVQ46bMBvtwdglJpPCE8ypl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="module" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Diff &amp; Merge" />
+    <property name="vcs.patch.path" value="$USER_HOME$/Desktop" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projects\Java\MusicBot\target" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b0abf17-efdd-466c-94ee-dc547a5f7444" name="Default Changelist" comment="" />
+      <changelist id="aa71cf63-a7f1-4d68-be47-95e101505060" name="Update bug-report.md" comment="" />
+      <changelist id="2d798eaa-1505-4b64-985d-b5ab32292778" name="Apply patch" comment="Apply patch" />
+      <changelist id="3a3f1bd9-143a-4fe0-b81b-17adaa903553" name="Fix version checking" comment="Fix version checking" />
+      <changelist id="5a4104f4-bbe2-496b-919c-42c6c5797936" name="Fix version checking-2" comment="Fix version checking" />
+      <changelist id="6f996819-7fc0-4d1c-bbf5-a809fef3c919" name="JMBMeh" comment="" />
+      <created>1577294841550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577294841550</updated>
+      <workItem from="1577294846506" duration="1625000" />
+      <workItem from="1577296513030" duration="3087000" />
+      <workItem from="1577299619468" duration="789000" />
+      <workItem from="1580479827772" duration="3082000" />
+      <workItem from="1580886611828" duration="176000" />
+      <workItem from="1586548915066" duration="1013000" />
+      <workItem from="1590997093552" duration="318000" />
+      <workItem from="1591176358403" duration="399000" />
+      <workItem from="1591176761251" duration="5828000" />
+      <workItem from="1591195259030" duration="1922000" />
+      <workItem from="1591259744943" duration="1146000" />
+      <workItem from="1594209146393" duration="2271000" />
+      <workItem from="1594634113528" duration="592000" />
+      <workItem from="1594894660913" duration="202000" />
+      <workItem from="1596292777971" duration="1985000" />
+      <workItem from="1596445548533" duration="1428000" />
+      <workItem from="1596471794367" duration="14000" />
+      <workItem from="1596475445232" duration="1464000" />
+      <workItem from="1596786763486" duration="645000" />
+      <workItem from="1601735687284" duration="945000" />
+      <workItem from="1602751626877" duration="53000" />
+      <workItem from="1605158369146" duration="1038000" />
+      <workItem from="1605166514350" duration="2586000" />
+      <workItem from="1605861339424" duration="1568000" />
+      <workItem from="1605876778831" duration="1198000" />
+      <workItem from="1605962284726" duration="601000" />
+    </task>
+    <task id="LOCAL-00001" summary="Update oof">
+      <created>1591184833918</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591184833918</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update README.md&#10;&#10;(cherry picked from commit fa69fc8e795fc1cf97601106180887854a359f25)&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
+    <MESSAGE value="Update oof" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update oof" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1947" y="-440" width="1523" height="941" maximized="true" key="DiffContextDialog" timestamp="1596475847162">
+      <screen x="1920" y="-425" width="1707" height="1026" />
+    </state>
+    <state x="1947" y="-440" width="1523" height="941" maximized="true" key="DiffContextDialog/0.0.1707.919/1920.-425.1707.1026@1920.-425.1707.1026" timestamp="1596475847162" />
+    <state x="2553" y="-193" key="FileChooserDialogImpl" timestamp="1602751671677">
+      <screen x="1920" y="-447" width="1707" height="1026" />
+    </state>
+    <state x="2553" y="-193" key="FileChooserDialogImpl/0.0.1707.919/1920.-447.1707.1026@1920.-447.1707.1026" timestamp="1602751671677" />
+    <state width="1664" height="364" key="GridCell.Tab.0.bottom" timestamp="1596294791747">
+      <screen x="1920" y="-425" width="1707" height="1026" />
+    </state>
+    <state width="1664" height="319" key="GridCell.Tab.0.bottom/0.0.1707.919/1920.-397.1707.1026@0.0.1707.919" timestamp="1594213192675" />
+    <state width="1664" height="319" key="GridCell.Tab.0.bottom/0.0.1707.919/1920.-397.1707.1026@1920.-397.1707.1026" timestamp="1594210701825" />
+    <state width="1664" height="364" key="GridCell.Tab.0.bottom/0.0.1707.919/1920.-425.1707.1026@1920.-425.1707.1026" timestamp="1596294791747" />
+    <state width="1664" height="364" key="GridCell.Tab.0.center" timestamp="1596294791747">
+      <screen x="1920" y="-425" width="1707" height="1026" />
+    </state>
+    <state width="1664" height="319" key="GridCell.Tab.0.center/0.0.1707.919/1920.-397.1707.1026@0.0.1707.919" timestamp="1594213192675" />
+    <state width="1664" height="319" key="GridCell.Tab.0.center/0.0.1707.919/1920.-397.1707.1026@1920.-397.1707.1026" timestamp="1594210701825" />
+    <state width="1664" height="364" key="GridCell.Tab.0.center/0.0.1707.919/1920.-425.1707.1026@1920.-425.1707.1026" timestamp="1596294791747" />
+    <state width="1664" height="364" key="GridCell.Tab.0.left" timestamp="1596294791747">
+      <screen x="1920" y="-425" width="1707" height="1026" />
+    </state>
+    <state width="1664" height="319" key="GridCell.Tab.0.left/0.0.1707.919/1920.-397.1707.1026@0.0.1707.919" timestamp="1594213192675" />
+    <state width="1664" height="319" key="GridCell.Tab.0.left/0.0.1707.919/1920.-397.1707.1026@1920.-397.1707.1026" timestamp="1594210701825" />
+    <state width="1664" height="364" key="GridCell.Tab.0.left/0.0.1707.919/1920.-425.1707.1026@1920.-425.1707.1026" timestamp="1596294791747" />
+    <state width="1664" height="364" key="GridCell.Tab.0.right" timestamp="1596294791747">
+      <screen x="1920" y="-425" width="1707" height="1026" />
+    </state>
+    <state width="1664" height="319" key="GridCell.Tab.0.right/0.0.1707.919/1920.-397.1707.1026@0.0.1707.919" timestamp="1594213192675" />
+    <state width="1664" height="319" key="GridCell.Tab.0.right/0.0.1707.919/1920.-397.1707.1026@1920.-397.1707.1026" timestamp="1594210701825" />
+    <state width="1664" height="364" key="GridCell.Tab.0.right/0.0.1707.919/1920.-425.1707.1026@1920.-425.1707.1026" timestamp="1596294791747" />
+    <state x="2365" y="-152" key="Vcs.Push.Dialog.v2" timestamp="1594210293192">
+      <screen x="1920" y="-397" width="1707" height="1026" />
+    </state>
+    <state x="2365" y="-152" key="Vcs.Push.Dialog.v2/0.0.1707.919/1920.-397.1707.1026@1920.-397.1707.1026" timestamp="1594210293192" />
+    <state x="2443" y="-179" key="VcsDiffUtil.ChangesDialog" timestamp="1596475686135">
+      <screen x="1920" y="-425" width="1707" height="1026" />
+    </state>
+    <state x="2443" y="-179" key="VcsDiffUtil.ChangesDialog/0.0.1707.919/1920.-425.1707.1026@1920.-425.1707.1026" timestamp="1596475686135" />
+    <state x="2364" y="-324" key="new project wizard" timestamp="1602751676751">
+      <screen x="1920" y="-447" width="1707" height="1026" />
+    </state>
+    <state x="2364" y="-324" key="new project wizard/0.0.1707.919/1920.-447.1707.1026@1920.-447.1707.1026" timestamp="1602751676751" />
+  </component>
+</project>
